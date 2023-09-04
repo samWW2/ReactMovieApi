@@ -1,7 +1,7 @@
-
-import './App.css';
-import api from './api/axiosConfig';
-import {useState, useEffect} from 'react';
+const React = require('react');
+const { useState, useEffect } = require('react');
+require('./App.css');
+const api = require('./api/axiosConfig.js');
 
 
 function App() {
