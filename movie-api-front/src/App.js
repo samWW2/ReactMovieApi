@@ -10,7 +10,8 @@ function App() {
 
   const getMovies = async () =>{
 
-    try{
+    try
+    {
 
       const response = await api.get("/api/v1/movies");
       console.log(response.data);
